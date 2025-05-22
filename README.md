@@ -12,3 +12,5 @@ Project4 : Kullanıcıdan alınan veriye göre taksimetre sistemi.
 Project5 : Kullanıcıdan aldığımız dairenin yarıçapı ve merkez açı değerleri ile alanı, çevresi ve daire diliminin alanını hesaplayan sistem.
 
 Project6 : Kullanıcıdan aldığımız boy ve kilo bilgisine göre vücut kitle indexini hesaplayan sistem.
+
+Project7 : Sabit fiyatları olan manav ürünlerinin, kullanıcıya sorulan kilo bazlı alışveriş sonucu toplam fiyat çıkartan sistem.
