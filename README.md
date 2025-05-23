@@ -14,3 +14,5 @@ Project5 : Kullanıcıdan aldığımız dairenin yarıçapı ve merkez açı de�
 Project6 : Kullanıcıdan aldığımız boy ve kilo bilgisine göre vücut kitle indexini hesaplayan sistem.
 
 Project7 : Sabit fiyatları olan manav ürünlerinin, kullanıcıya sorulan kilo bazlı alışveriş sonucu toplam fiyat çıkartan sistem.
+
+Project8 : Temel bir hesap makinesi sistemi.
