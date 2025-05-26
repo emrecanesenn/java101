@@ -20,3 +20,5 @@ Project8 : Temel bir hesap makinesi sistemi.
 UserLogin : Temel bir kullanıcı giriş sistemi.
 
 OrtalamaHesaplama: Belli kurallar eklenerek Project1'in bir tık üstü bir ortalama hesaplayan program.
+
+EventPlanner : Hava derecesine göre etkinlik öneren program.
