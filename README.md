@@ -22,3 +22,5 @@ UserLogin : Temel bir kullanıcı giriş sistemi.
 OrtalamaHesaplama: Belli kurallar eklenerek Project1'in bir tık üstü bir ortalama hesaplayan program.
 
 EventPlanner : Hava derecesine göre etkinlik öneren program.
+
+BuyukKucuk : Girilen 3 sayının büyükten küçüğe sıralanması
