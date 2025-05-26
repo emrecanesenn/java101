@@ -24,3 +24,5 @@ OrtalamaHesaplama: Belli kurallar eklenerek Project1'in bir tık üstü bir orta
 EventPlanner : Hava derecesine göre etkinlik öneren program.
 
 BuyukKucuk : Girilen 3 sayının büyükten küçüğe sıralanması
+
+Burc : Girdiğin ay ve güne göre if else koşulları ile burcunu gösterme.
