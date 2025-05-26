@@ -26,3 +26,7 @@ EventPlanner : Hava derecesine göre etkinlik öneren program.
 BuyukKucuk : Girilen 3 sayının büyükten küçüğe sıralanması
 
 Burc : Girdiğin ay ve güne göre if else koşulları ile burcunu gösterme.
+
+BiletProgrami : Aldığınız uçak biletinin belirli koşullara göre indirim uygulayan bir program.
+
+Zodyak : Çin zodyak burcunu hesaplayan program.
