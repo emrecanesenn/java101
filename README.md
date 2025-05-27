@@ -34,3 +34,5 @@ Zodyak : Çin zodyak burcunu hesaplayan program.
 ArtikYil : Kullanıcının girdiği yılın artık yıl olup olmadığını sorgulatma.
 
 DonguOrtalama : Kullanıcının girdiği sayıya kadar olan sayıların 3 ve 4 e tam bölünenlerin ortalamasını bulma.
+
+CiftSayiToplama : Döngü ile kullanıcıdan tek sayı alana kadar devam eden ve girilen sayılar 4'ün katı olduğunda toplama işlemi yapan bir program.
