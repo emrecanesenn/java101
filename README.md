@@ -38,3 +38,5 @@ DonguOrtalama : Kullanıcının girdiği sayıya kadar olan sayıların 3 ve 4 e
 CiftSayiToplama : Döngü ile kullanıcıdan tek sayı alana kadar devam eden ve girilen sayılar 4'ün katı olduğunda toplama işlemi yapan bir program.
 
 KuvvetBulma : Kullanıcıdan alınan sayıya kadar olan sayıların sadece 4 ve 5'in kuvvetleri olanları bulma.
+
+Kombinasyon: Kombinasyon hesaplayan program.
