@@ -42,3 +42,5 @@ KuvvetBulma : Kullanıcıdan alınan sayıya kadar olan sayıların sadece 4 ve 
 Kombinasyon: Kombinasyon hesaplayan program.
 
 UsluHesaplama : Kullanıcıdan alınan değerler ile bir sayının üssünü hesaplayan program.
+
+BasamakToplami : Girilen sayının basamaklarının toplamını çıkartan program.
