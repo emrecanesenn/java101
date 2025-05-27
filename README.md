@@ -44,3 +44,5 @@ Kombinasyon: Kombinasyon hesaplayan program.
 UsluHesaplama : Kullanıcıdan alınan değerler ile bir sayının üssünü hesaplayan program.
 
 BasamakToplami : Girilen sayının basamaklarının toplamını çıkartan program.
+
+HarmonikSeri : Kullanıcıdan alınan sayının harmonik serisini bulan program.
