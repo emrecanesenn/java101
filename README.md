@@ -36,3 +36,5 @@ ArtikYil : Kullanıcının girdiği yılın artık yıl olup olmadığını sorg
 DonguOrtalama : Kullanıcının girdiği sayıya kadar olan sayıların 3 ve 4 e tam bölünenlerin ortalamasını bulma.
 
 CiftSayiToplama : Döngü ile kullanıcıdan tek sayı alana kadar devam eden ve girilen sayılar 4'ün katı olduğunda toplama işlemi yapan bir program.
+
+KuvvetBulma : Kullanıcıdan alınan sayıya kadar olan sayıların sadece 4 ve 5'in kuvvetleri olanları bulma.
