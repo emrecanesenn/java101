@@ -40,3 +40,5 @@ CiftSayiToplama : Döngü ile kullanıcıdan tek sayı alana kadar devam eden ve
 KuvvetBulma : Kullanıcıdan alınan sayıya kadar olan sayıların sadece 4 ve 5'in kuvvetleri olanları bulma.
 
 Kombinasyon: Kombinasyon hesaplayan program.
+
+UsluHesaplama : Kullanıcıdan alınan değerler ile bir sayının üssünü hesaplayan program.
