@@ -32,3 +32,5 @@ BiletProgrami : Aldığınız uçak biletinin belirli koşullara göre indirim u
 Zodyak : Çin zodyak burcunu hesaplayan program.
 
 ArtikYil : Kullanıcının girdiği yılın artık yıl olup olmadığını sorgulatma.
+
+DonguOrtalama : Kullanıcının girdiği sayıya kadar olan sayıların 3 ve 4 e tam bölünenlerin ortalamasını bulma.
