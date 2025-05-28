@@ -46,3 +46,7 @@ UsluHesaplama : Kullanıcıdan alınan değerler ile bir sayının üssünü hes
 BasamakToplami : Girilen sayının basamaklarının toplamını çıkartan program.
 
 HarmonikSeri : Kullanıcıdan alınan sayının harmonik serisini bulan program.
+
+ElmasOlustur : Kullanıcının girdiği "tek" sayıya göre elmas oluşturan program.
+
+MiniAtm : Switch Case ile yapılmış basit bir atm programı.
