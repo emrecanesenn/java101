@@ -56,3 +56,5 @@ EbobEkok : Kullanıcıdan aldığım iki sayının ebob ve ekok değerlerini hes
 EnBuyukEnKucuk : Kullanıcıdan alınan n tane sayının en büyüğünü ve en küçüğünü bulan program.
 
 MukemmelSayi : Kullanıcıdan alınan sayının pozitif tam sayı bölenlerinin toplamı sayıya eşit ise mükemmel olduğunu belirten program.
+
+AsalSayi : 1'den 100'e kadar olan sayıların asal sıralaması. 
