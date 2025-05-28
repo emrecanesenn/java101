@@ -58,3 +58,5 @@ EnBuyukEnKucuk : Kullanıcıdan alınan n tane sayının en büyüğünü ve en 
 MukemmelSayi : Kullanıcıdan alınan sayının pozitif tam sayı bölenlerinin toplamı sayıya eşit ise mükemmel olduğunu belirten program.
 
 AsalSayi : 1'den 100'e kadar olan sayıların asal sıralaması. 
+
+Fibonacci : Kullanıcıdan alınan sayı kadar fibonacci sayısı çıkartan program.
