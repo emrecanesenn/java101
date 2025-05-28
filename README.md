@@ -50,3 +50,5 @@ HarmonikSeri : Kullanıcıdan alınan sayının harmonik serisini bulan program.
 ElmasOlustur : Kullanıcının girdiği "tek" sayıya göre elmas oluşturan program.
 
 MiniAtm : Switch Case ile yapılmış basit bir atm programı.
+
+EbobEkok : Kullanıcıdan aldığım iki sayının ebob ve ekok değerlerini hesaplayan program.
