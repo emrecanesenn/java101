@@ -52,3 +52,5 @@ ElmasOlustur : Kullanıcının girdiği "tek" sayıya göre elmas oluşturan pro
 MiniAtm : Switch Case ile yapılmış basit bir atm programı.
 
 EbobEkok : Kullanıcıdan aldığım iki sayının ebob ve ekok değerlerini hesaplayan program.
+
+EnBuyukEnKucuk : Kullanıcıdan alınan n tane sayının en büyüğünü ve en küçüğünü bulan program.
