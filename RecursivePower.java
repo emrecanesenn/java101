@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Main {
+public class RecursivePower {
     public static int hesapla(int base, int power) {
         if(power == 0) return 1;
         else return base * hesapla(base, power - 1);
