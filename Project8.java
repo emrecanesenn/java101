@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class Main {
+public class Project8 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         int sayi1, sayi2, islem;
