@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Main {
+public class AsalSayi {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.println("---- Asal Sayılar (1-100) ----");
