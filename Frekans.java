@@ -1,6 +1,6 @@
 import java.util.Arrays;
 
-public class Main {
+public class Frekans {
     public static void main(String[] args) {
         int[] sayilar = {10, 20, 20, 10, 10, 20, 5, 20, 5};
 
