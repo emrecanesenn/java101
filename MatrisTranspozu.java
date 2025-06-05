@@ -1,4 +1,4 @@
-public class Main {
+public class MatrisTranspozu {
 
     public static void printMatrix(int[][] matrix) {
         for (int row = 0; row < matrix.length; row++) {
