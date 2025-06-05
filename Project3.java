@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class Main {
+public class Project3 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         int kenar1, kenar2; double hipotenus;
