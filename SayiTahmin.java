@@ -2,7 +2,7 @@ import java.util.Arrays;
 import java.util.Random;
 import java.util.Scanner;
 
-public class Main {
+public class SayiTahmin {
     public static void main(String[] args) {
         Random rand = new Random();
         int number = rand.nextInt(100);
