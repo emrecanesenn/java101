@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class Main {
+public class Project7 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         double armutFiyat = 2.14 , elmaFiyat = 3.67 , domatesFiyat = 1.11 , muzFiyat = 0.95, patlicanFiyat = 5.00;
