@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class Main {
+public class Project5 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         double pi = 3.14;
