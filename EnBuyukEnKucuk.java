@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Main {
+public class EnBuyukEnKucuk {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int n, enBuyuk = 0, enKucuk = 0;
