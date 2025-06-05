@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Main {
+public class BiletProgrami {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int km, yas, yolculukTuru; double biletFiyati, indirimsizBiletFiyati;
