@@ -1,5 +1,5 @@
 import java.util.Arrays;
-public class Main {
+public class CiftTekrari {
 
     static boolean isFind(int[] arr, int value) {
         for (int i : arr) {
