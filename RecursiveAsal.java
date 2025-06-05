@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Main {
+public class RecursiveAsal {
     public static String hesapla(int sayi) {
         return asalKontrol(sayi, sayi - 1) ? "Asal sayıdır." : "Asal değildir.";
     }
