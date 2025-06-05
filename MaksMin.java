@@ -1,7 +1,7 @@
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class Main {
+public class MaksMin {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         int[] list = {56, 34, 1, 8, 101, -2, -33};
