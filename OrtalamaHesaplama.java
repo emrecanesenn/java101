@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class Main {
+public class OrtalamaHesaplama {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         double matematik, fizik, turkce, kimya, muzik, toplam = 0;
