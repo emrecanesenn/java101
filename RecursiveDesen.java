@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Main {
+public class RecursiveDesen {
     // Recursive metot
     static void recursivePattern(int n) {
         // Önce sayıyı yazdır
