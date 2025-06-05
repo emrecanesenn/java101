@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Main {
+public class HesapMakinesi {
 
     static void plus() {
         Scanner scan = new Scanner(System.in);
