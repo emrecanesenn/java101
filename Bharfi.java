@@ -1,4 +1,4 @@
-public class Main {
+public class Bharfi {
     public static void main(String[] args) {
 
         String[][] bHarfi = new String[7][6];
