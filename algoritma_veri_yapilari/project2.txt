@@ -1,0 +1,44 @@
+Proje 2: Merge Sort Analizi
+A. Merge Sort Aşamaları
+Algoritma Mantığı: Merge Sort (Birleştirmeli Sıralama), bir "böl ve yönet" (divide and conquer) algoritmasıdır. Diziyi sürekli olarak ikiye böler (divide) ve her bir yarısını ayrı ayrı sıralar (conquer). Son olarak, sıralanmış alt dizileri tekrar birleştirir (combine) ve tam sıralı diziyi elde eder.
+
+Dizi: [16, 21, 11, 8, 12, 22]
+
+Aşamalar:
+
+1. Bölme (Divide) Aşaması: Dizi, tek elemanlı alt diziler elde edilene kadar sürekli ikiye bölünür.
+
+[16, 21, 11, 8, 12, 22]
+[16, 21, 11] | [8, 12, 22]
+[16, 21] | [11] | [8, 12] | [22]
+[16] | [21] | [11] | [8] | [12] | [22] (Tek elemanlı diziler)
+2. Birleştirme (Conquer/Combine) Aşaması: Tek elemanlı diziler, sıralı bir şekilde birleştirilerek daha büyük sıralı diziler oluşturulur.
+
+Birleştir 1:
+
+[16] ve [21] birleştirilir: [16, 21]
+[8] ve [12] birleştirilir: [8, 12]
+Birleştirme sonrası ara durum: [16, 21] | [11] | [8, 12] | [22]
+
+Birleştir 2:
+
+[16, 21] ve [11] birleştirilir. (11'i doğru yere yerleştirerek): [11, 16, 21]
+[8, 12] ve [22] birleştirilir: [8, 12, 22]
+Birleştirme sonrası ara durum: [11, 16, 21] | [8, 12, 22]
+
+Birleştir 3 (Final Birleştirme):
+
+[11, 16, 21] ve [8, 12, 22] birleştirilir. (İki sıralı diziyi birleştirme algoritması):
+8 ve 11 karşılaştırılır, 8 alınır.
+11 ve 12 karşılaştırılır, 11 alınır.
+12 ve 16 karşılaştırılır, 12 alınır.
+16 ve 22 karşılaştırılır, 16 alınır.
+21 ve 22 karşılaştırılır, 21 alınır.
+22 kalır.
+Son Sıralı Dizi: [8, 11, 12, 16, 21, 22]
+B. Merge Sort'un Big-O Gösterimi
+Merge Sort'un performansı, dizinin sıralı olup olmamasına bağlı olarak çok fazla değişmez. Hem bölme hem de birleştirme aşamaları, logaritmik bir derinlikte (log n) ve her seviyede doğrusal (n) zaman alır.
+
+Ortalama Durum (Average Case): O(nlogn)
+En Kötü Durum (Worst Case): O(nlogn)
+En İyi Durum (Best Case): O(nlogn)
