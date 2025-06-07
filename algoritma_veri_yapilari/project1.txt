@@ -1,0 +1,62 @@
+Proje 1: Insertion Sort ve Selection Sort Analizi
+A. Insertion Sort Aşamaları
+Algoritma Mantığı: Insertion Sort (Eklemeli Sıralama), diziyi sıralı ve sırasız olmak üzere iki bölüme ayırır. Her adımda, sırasız bölümden bir eleman alır ve bu elemanı sıralı bölümdeki doğru yerine yerleştirir. Tıpkı iskambil kartlarını elimizde sıralarken yaptığımız gibi.
+
+Dizi: [22, 27, 16, 2, 18, 6]
+
+Aşamalar:
+
+Adım 0 (Başlangıç): [22 | 27, 16, 2, 18, 6] (22 sıralı kabul edilir)
+
+Adım 1: 27'yi al. 27 > 22. Doğru yerinde.
+[22, 27 | 16, 2, 18, 6]
+
+Adım 2: 16'yı al. 16 < 27, 16 < 22. 27'yi sağa kaydır (22'nin sağından başlayarak). 22'yi sağa kaydır. 16'yı doğru yere yerleştir.
+[16, 22, 27 | 2, 18, 6]
+
+Adım 3: 2'yi al. 2 < 27, 2 < 22, 2 < 16. Hepsini sağa kaydır. 2'yi doğru yere yerleştir.
+[2, 16, 22, 27 | 18, 6]
+
+Adım 4: 18'i al. 18 < 27, 18 < 22, 18 > 16. 27'yi sağa kaydır. 22'yi sağa kaydır. 18'i doğru yere yerleştir.
+[2, 16, 18, 22, 27 | 6]
+
+Adım 5: 6'yı al. 6 < 27, 6 < 22, 6 < 18, 6 > 16 (DUR!). 27'yi sağa kaydır. 22'yi sağa kaydır. 18'i sağa kaydır. 16'yı sağa kaydır. 6'yı doğru yere yerleştir.
+[2, 6, 16, 18, 22, 27] (Sıralama tamamlandı)
+
+B. Insertion Sort'un Big-O Gösterimi
+Big-O gösterimi, bir algoritmanın performansının giriş boyutu (n) arttıkça nasıl değiştiğini matematiksel olarak ifade eder.
+
+Ortalama Durum (Average Case): O(n 
+2
+ )
+En Kötü Durum (Worst Case): O(n 
+2
+ ) (Dizi ters sıralı ise, her eleman için en fazla n-1 karşılaştırma ve n-1 kaydırma yapılır.)
+En İyi Durum (Best Case): O(n) (Dizi zaten sıralı ise, her eleman için sadece bir karşılaştırma yapılır.)
+C. Time Complexity: 18 Sayısının Kapsamı
+Dizi sıralandıktan sonraki hali: [2, 6, 16, 18, 22, 27]
+
+18 sayısı dizinin ortalarına yakın bir konumda bulunuyor.
+Bu durum, Average Case (Ortalama Durum) kapsamına girer.
+Best case için 2 gibi en başta olması gerekirdi.
+Worst case için 27 gibi en sonda olması gerekirdi (veya aradığımız sayı dizide olmasaydı).
+D. Selection Sort İlk 4 Adımı
+Algoritma Mantığı: Selection Sort (Seçmeli Sıralama), her adımda dizinin sırasız kısmındaki en küçük (veya en büyük) elemanı bulur ve bu elemanı sırasız kısmın başındaki elemanla yer değiştirir.
+
+Dizi: [7, 3, 5, 8, 2, 9, 4, 15, 6]
+
+İlk 4 Adım:
+
+Adım 0 (Başlangıç): [7, 3, 5, 8, 2, 9, 4, 15, 6]
+
+Adım 1: En küçük elemanı bul (2). Onu ilk elemanla (7) yer değiştir.
+[2, 3, 5, 8, 7, 9, 4, 15, 6]
+
+Adım 2: İkinci konumdan başlayarak en küçük elemanı bul (3). Onu ikinci elemanla (3) yer değiştir (zaten yerinde).
+[2, 3, 5, 8, 7, 9, 4, 15, 6]
+
+Adım 3: Üçüncü konumdan başlayarak en küçük elemanı bul (4). Onu üçüncü elemanla (5) yer değiştir.
+[2, 3, 4, 8, 7, 9, 5, 15, 6]
+
+Adım 4: Dördüncü konumdan başlayarak en küçük elemanı bul (5). Onu dördüncü elemanla (8) yer değiştir.
+[2, 3, 4, 5, 7, 9, 8, 15, 6]
