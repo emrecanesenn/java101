@@ -1,0 +1,82 @@
+Binary Search Tree (İkili Arama Ağacı) Özellikleri:
+
+Her düğümün sol alt ağacındaki tüm değerler, o düğümün değerinden küçüktür.
+Her düğümün sağ alt ağacındaki tüm değerler, o düğümün değerinden büyüktür.
+Standart bir BST'de yinelenen (duplicate) değerlere izin verilmez (eğer yinelenen bir değer eklenirse, genellikle sağa veya sola kuralına göre belirli bir tarafa yerleştirilir ya da atılır).
+Dizi: [7, 5, 1, 8, 3, 6, 0, 9, 4, 2]
+
+Şimdi her bir elemanı teker teker BST'ye ekleyelim:
+
+Aşama 1: 7'yi Ekleme
+
+Ağaç boş.
+Root 7'dir.
+Aşama 2: 5'i Ekleme
+
+Root 7'den başla.
+5 < 7 olduğu için, 7'nin soluna git.
+7'nin solu boş olduğu için, 5, 7'nin sol çocuğu olarak eklenir.
+Ağaç durumu: 7 (Sol: 5)
+Aşama 3: 1'i Ekleme
+
+Root 7'den başla.
+1 < 7 olduğu için, 7'nin soluna git (5'e).
+5'ten başla. 1 < 5 olduğu için, 5'in soluna git.
+5'in solu boş olduğu için, 1, 5'in sol çocuğu olarak eklenir.
+Ağaç durumu: 7 (Sol: 5 (Sol: 1))
+Aşama 4: 8'i Ekleme
+
+Root 7'den başla.
+8 > 7 olduğu için, 7'nin sağına git.
+7'nin sağı boş olduğu için, 8, 7'nin sağ çocuğu olarak eklenir.
+Ağaç durumu: 7 (Sol: 5 (Sol: 1), Sağ: 8)
+Aşama 5: 3'ü Ekleme
+
+Root 7'den başla.
+3 < 7 olduğu için, 7'nin soluna git (5'e).
+5'ten başla. 3 < 5 olduğu için, 5'in soluna git (1'e).
+1'den başla. 3 > 1 olduğu için, 1'in sağına git.
+1'in sağı boş olduğu için, 3, 1'in sağ çocuğu olarak eklenir.
+Ağaç durumu: 7 (Sol: 5 (Sol: 1 (Sağ: 3)), Sağ: 8)
+Aşama 6: 6'yı Ekleme
+
+Root 7'den başla.
+6 < 7 olduğu için, 7'nin soluna git (5'e).
+5'ten başla. 6 > 5 olduğu için, 5'in sağına git.
+5'in sağı boş olduğu için, 6, 5'in sağ çocuğu olarak eklenir.
+Ağaç durumu: 7 (Sol: 5 (Sol: 1 (Sağ: 3), Sağ: 6), Sağ: 8)
+Aşama 7: 0'ı Ekleme
+
+Root 7'den başla.
+0 < 7 olduğu için, 7'nin soluna git (5'e).
+5'ten başla. 0 < 5 olduğu için, 5'in soluna git (1'e).
+1'den başla. 0 < 1 olduğu için, 1'in soluna git.
+1'in solu boş olduğu için, 0, 1'in sol çocuğu olarak eklenir.
+Ağaç durumu: 7 (Sol: 5 (Sol: 1 (Sol: 0, Sağ: 3), Sağ: 6), Sağ: 8)
+Aşama 8: 9'u Ekleme
+
+Root 7'den başla.
+9 > 7 olduğu için, 7'nin sağına git (8'e).
+8'den başla. 9 > 8 olduğu için, 8'in sağına git.
+8'in sağı boş olduğu için, 9, 8'in sağ çocuğu olarak eklenir.
+Ağaç durumu: 7 (Sol: 5 (Sol: 1 (Sol: 0, Sağ: 3), Sağ: 6), Sağ: 8 (Sağ: 9))
+Aşama 9: 4'ü Ekleme
+
+Root 7'den başla.
+4 < 7 olduğu için, 7'nin soluna git (5'e).
+5'ten başla. 4 < 5 olduğu için, 5'in soluna git (1'e).
+1'den başla. 4 > 1 olduğu için, 1'in sağına git (3'e).
+3'ten başla. 4 > 3 olduğu için, 3'ün sağına git.
+3'ün sağı boş olduğu için, 4, 3'ün sağ çocuğu olarak eklenir.
+Ağaç durumu: 7 (Sol: 5 (Sol: 1 (Sol: 0, Sağ: 3 (Sağ: 4)), Sağ: 6), Sağ: 8 (Sağ: 9))
+Aşama 10: 2'yi Ekleme
+
+Root 7'den başla.
+2 < 7 olduğu için, 7'nin soluna git (5'e).
+5'ten başla. 2 < 5 olduğu için, 5'in soluna git (1'e).
+1'den başla. 2 > 1 olduğu için, 1'in sağına git (3'e).
+3'ten başla. 2 < 3 olduğu için, 3'ün soluna git.
+3'ün solu boş olduğu için, 2, 3'ün sol çocuğu olarak eklenir.
+Ağaç durumu: 7 (Sol: 5 (Sol: 1 (Sol: 0, Sağ: 3 (Sol: 2, Sağ: 4)), Sağ: 6), Sağ: 8 (Sağ: 9))
+
+Bu adımlarla, verilen dizi elemanları kullanılarak Binary Search Tree oluşturulur.
